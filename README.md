@@ -9,14 +9,18 @@ Next.js
 Installation
 
     Clone the repository:
-        git clone https://github.com/your-username/travware-task.git
-        cd
+        git clone https://github.com/mohmedEldeeb/County-task.git
+        cd County-task
 
 2- Install dependencies:
 
     npm install
     # or
     yarn install
+
+- Run project
+  npm run dev # or
+  yarn run dev
 
 Project Structure
 
