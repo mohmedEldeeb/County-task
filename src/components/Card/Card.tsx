@@ -30,7 +30,7 @@ const Card = ({ data }: { data: Data }) => {
     localStorage.setItem("cart", JSON.stringify(cardData));
   };
   return (
-    <div className="w-[300px] h-[150px] p-[10px] m-1 bg-pink-100 cursor-pointer">
+    <div className="w-[300px] h-[150px] p-[10px] m-1 mb-8 bg-pink-100 cursor-pointer">
       <h3>{data.name}</h3>
       <p>{data.description}</p>
       <p className="font-bold m-2 ">${data.price}</p>
